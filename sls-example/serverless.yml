@@ -27,7 +27,7 @@ frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: python3.8
+  runtime: python3.9
 
 # you can overwrite defaults here
 #  stage: dev
@@ -70,7 +70,7 @@ functions:
       - http:
           path: hello
           method: get
-           
+
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
